@@ -1,0 +1,5 @@
+data0 <- read.csv('/Users/huangshuyan/Downloads/train.csv',quote = "")
+View(data0)
+attach(data0)
+plot(data0)
+plot(temp,area)
